@@ -1,0 +1,10 @@
+{
+    "comparator_output": 2,
+    "description": {
+      "translate": "jukebox_song.gb.welcome_to_the_black_parade"
+    },
+    "length_in_seconds": 307.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.welcome_to_the_black_parade"
+    }
+  }

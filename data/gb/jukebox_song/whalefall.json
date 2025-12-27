@@ -1,0 +1,10 @@
+{
+    "comparator_output": 7,
+    "description": {
+      "translate": "jukebox_song.gb.whalefall"
+    },
+    "length_in_seconds": 250.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.whalefall"
+    }
+  }

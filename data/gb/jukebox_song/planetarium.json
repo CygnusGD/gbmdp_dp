@@ -1,0 +1,10 @@
+{
+    "comparator_output": 12,
+    "description": {
+      "translate": "jukebox_song.gb.planetarium"
+    },
+    "length_in_seconds": 273.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.planetarium"
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "comparator_output": 10,
+    "description": {
+      "translate": "jukebox_song.gb.dallas"
+    },
+    "length_in_seconds": 421.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.dallas"
+    }
+  }

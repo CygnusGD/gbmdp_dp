@@ -1,0 +1,10 @@
+{
+    "comparator_output": 10,
+    "description": {
+      "translate": "jukebox_song.gb.the_cia"
+    },
+    "length_in_seconds": 282.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.the_cia"
+    }
+  }

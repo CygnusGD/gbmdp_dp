@@ -1,0 +1,10 @@
+{
+    "comparator_output": 12,
+    "description": {
+      "translate": "jukebox_song.gb.commatose"
+    },
+    "length_in_seconds": 590.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.commatose"
+    }
+  }

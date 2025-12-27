@@ -1,0 +1,10 @@
+{
+    "comparator_output": 6,
+    "description": {
+      "translate": "jukebox_song.gb.cold_weather"
+    },
+    "length_in_seconds": 138.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.cold_weather"
+    }
+  }

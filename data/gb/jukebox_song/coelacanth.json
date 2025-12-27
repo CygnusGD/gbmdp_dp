@@ -1,0 +1,10 @@
+{
+    "comparator_output": 1,
+    "description": {
+      "translate": "jukebox_song.gb.coelacanth"
+    },
+    "length_in_seconds": 395.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.coelacanth"
+    }
+  }

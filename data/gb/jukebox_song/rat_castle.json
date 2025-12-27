@@ -1,0 +1,10 @@
+{
+    "comparator_output": 11,
+    "description": {
+      "translate": "jukebox_song.gb.rat_castle"
+    },
+    "length_in_seconds": 167.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.rat_castle"
+    }
+  }

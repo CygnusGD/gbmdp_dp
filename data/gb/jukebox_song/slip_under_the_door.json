@@ -1,0 +1,10 @@
+{
+    "comparator_output": 3,
+    "description": {
+      "translate": "jukebox_song.gb.slip_under_the_door"
+    },
+    "length_in_seconds": 328.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.slip_under_the_door"
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "comparator_output": 13,
+    "description": {
+      "translate": "jukebox_song.gb.abyss_angel"
+    },
+    "length_in_seconds": 357.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.abyss_angel"
+    }
+  }

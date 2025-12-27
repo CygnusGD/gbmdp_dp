@@ -1,0 +1,10 @@
+{
+    "comparator_output": 4,
+    "description": {
+      "translate": "jukebox_song.gb.bone_skull"
+    },
+    "length_in_seconds": 150.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.bone_skull"
+    }
+  }

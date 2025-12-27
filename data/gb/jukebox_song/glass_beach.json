@@ -1,0 +1,10 @@
+{
+    "comparator_output": 8,
+    "description": {
+      "translate": "jukebox_song.gb.glass_beach"
+    },
+    "length_in_seconds": 441.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.glass_beach"
+    }
+  }

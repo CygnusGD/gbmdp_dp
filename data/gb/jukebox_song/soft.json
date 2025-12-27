@@ -1,0 +1,10 @@
+{
+    "comparator_output": 13,
+    "description": {
+      "translate": "jukebox_song.gb.soft"
+    },
+    "length_in_seconds": 126.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.soft"
+    }
+  }

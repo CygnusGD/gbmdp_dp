@@ -1,0 +1,10 @@
+{
+    "comparator_output": 14,
+    "description": {
+      "translate": "jukebox_song.gb.yoshis_island"
+    },
+    "length_in_seconds": 379.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.yoshis_island"
+    }
+  }

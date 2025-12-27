@@ -1,0 +1,10 @@
+{
+    "comparator_output": 1,
+    "description": {
+      "translate": "jukebox_song.gb.classic_j_dies_and_goes_to_hell_part_1"
+    },
+    "length_in_seconds": 304.0,
+    "sound_event": {
+      "sound_id": "gb:music_disc.classic_j_dies_and_goes_to_hell_part_1"
+    }
+  }
