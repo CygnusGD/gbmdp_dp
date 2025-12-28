@@ -2,7 +2,7 @@
     "type": "minecraft:entity",
     "pools": [
       {
-        "bonus_rolls": 0.0,
+        "bonus_rolls": 0,
         "entries": [
           {
             "type": "minecraft:item",
@@ -11,16 +11,16 @@
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                  "max": 2.0,
-                  "min": 0.0
+                  "max": 2,
+                  "min": 0
                 },
                 "function": "minecraft:set_count"
               },
               {
                 "count": {
                   "type": "minecraft:uniform",
-                  "max": 1.0,
-                  "min": 0.0
+                  "max": 1,
+                  "min": 0
                 },
                 "enchantment": "minecraft:looting",
                 "function": "minecraft:enchanted_count_increase"
@@ -29,10 +29,51 @@
             "name": "minecraft:rotten_flesh"
           }
         ],
-        "rolls": 1.0
+        "rolls": 1
       },
       {
-        "bonus_rolls": 0.0,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "vehicle": {
+                    "type": "minecraft:zombie_horse"
+                  }
+                }
+              }
+            ],
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1,
+                  "min": 0
+                },
+                "function": "minecraft:set_count"
+              },
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1,
+                  "min": 0
+                },
+                "enchantment": "minecraft:looting",
+                "function": "minecraft:enchanted_count_increase"
+              }
+            ],
+            "name": "minecraft:red_mushroom"
+          }
+        ],
+        "rolls": 1
+      },
+      {
+        "bonus_rolls": 0,
         "conditions": [
           {
             "condition": "minecraft:killed_by_player"
@@ -41,20 +82,93 @@
             "condition": "minecraft:random_chance_with_enchanted_bonus",
             "enchanted_chance": {
               "type": "minecraft:linear",
-              "base": 0.13,
-              "per_level_above_first": 0.02
+              "base": 0.035,
+              "per_level_above_first": 0.01
             },
             "enchantment": "minecraft:looting",
-            "unenchanted_chance": 0.11
+            "unenchanted_chance": 0.025
           }
         ],
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:copper_ingot"
+            "name": "minecraft:iron_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:any_of",
+                    "terms": [
+                      {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                          "flags": {
+                            "is_on_fire": true
+                          }
+                        }
+                      },
+                      {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "direct_attacker",
+                        "predicate": {
+                          "equipment": {
+                            "mainhand": {
+                              "predicates": {
+                                "minecraft:enchantments": [
+                                  {
+                                    "enchantments": "#minecraft:smelts_loot"
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "function": "minecraft:furnace_smelt"
+              }
+            ],
+            "name": "minecraft:potato"
           }
         ],
-        "rolls": 1.0
+        "rolls": 1
+      },
+      {
+        "bonus_rolls": 0,
+        "conditions": [
+          {
+            "condition": "minecraft:killed_by_player"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_baby": true
+              },
+              "vehicle": {
+                "type": "minecraft:chicken"
+              }
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_lava_chicken"
+          }
+        ],
+        "rolls": 1
       },
       {
         "bonus_rolls": 0,
@@ -79,8 +193,8 @@
                       "minecraft:item_name": "Music Disc",
                       "minecraft:rarity": "uncommon",
                       "minecraft:max_stack_size": 1,
-                      "minecraft:item_model": "gb:coelacanth",
-                      "minecraft:jukebox_playable": "gb:coelacanth"
+                      "minecraft:item_model": "gb:classic_j_dies_and_goes_to_hell_part_1",
+                      "minecraft:jukebox_playable": "gb:classic_j_dies_and_goes_to_hell_part_1"
                     },
                     "conditions": []
                   }
@@ -97,8 +211,8 @@
                       "minecraft:item_name": "Music Disc",
                       "minecraft:rarity": "uncommon",
                       "minecraft:max_stack_size": 1,
-                      "minecraft:item_model": "gb:motions",
-                      "minecraft:jukebox_playable": "gb:motions"
+                      "minecraft:item_model": "gb:bedroom_community",
+                      "minecraft:jukebox_playable": "gb:bedroom_community"
                     },
                     "conditions": []
                   }
@@ -115,8 +229,8 @@
                       "minecraft:item_name": "Music Disc",
                       "minecraft:rarity": "uncommon",
                       "minecraft:max_stack_size": 1,
-                      "minecraft:item_model": "gb:slip_under_the_door",
-                      "minecraft:jukebox_playable": "gb:slip_under_the_door"
+                      "minecraft:item_model": "gb:forever",
+                      "minecraft:jukebox_playable": "gb:forever"
                     },
                     "conditions": []
                   }
@@ -133,8 +247,8 @@
                       "minecraft:item_name": "Music Disc",
                       "minecraft:rarity": "uncommon",
                       "minecraft:max_stack_size": 1,
-                      "minecraft:item_model": "gb:guitar_song",
-                      "minecraft:jukebox_playable": "gb:guitar_song"
+                      "minecraft:item_model": "gb:bone_skull",
+                      "minecraft:jukebox_playable": "gb:bone_skull"
                     },
                     "conditions": []
                   }
@@ -151,8 +265,8 @@
                       "minecraft:item_name": "Music Disc",
                       "minecraft:rarity": "uncommon",
                       "minecraft:max_stack_size": 1,
-                      "minecraft:item_model": "gb:rare_animal",
-                      "minecraft:jukebox_playable": "gb:rare_animal"
+                      "minecraft:item_model": "gb:neon_glow",
+                      "minecraft:jukebox_playable": "gb:neon_glow"
                     },
                     "conditions": []
                   }
@@ -169,8 +283,8 @@
                       "minecraft:item_name": "Music Disc",
                       "minecraft:rarity": "uncommon",
                       "minecraft:max_stack_size": 1,
-                      "minecraft:item_model": "gb:cul_de_sac",
-                      "minecraft:jukebox_playable": "gb:cul_de_sac"
+                      "minecraft:item_model": "gb:cold_weather",
+                      "minecraft:jukebox_playable": "gb:cold_weather"
                     },
                     "conditions": []
                   }
@@ -187,8 +301,8 @@
                       "minecraft:item_name": "Music Disc",
                       "minecraft:rarity": "uncommon",
                       "minecraft:max_stack_size": 1,
-                      "minecraft:item_model": "gb:whalefall",
-                      "minecraft:jukebox_playable": "gb:whalefall"
+                      "minecraft:item_model": "gb:calico",
+                      "minecraft:jukebox_playable": "gb:calico"
                     },
                     "conditions": []
                   }
@@ -205,8 +319,8 @@
                       "minecraft:item_name": "Music Disc",
                       "minecraft:rarity": "uncommon",
                       "minecraft:max_stack_size": 1,
-                      "minecraft:item_model": "gb:puppy",
-                      "minecraft:jukebox_playable": "gb:puppy"
+                      "minecraft:item_model": "gb:glass_beach",
+                      "minecraft:jukebox_playable": "gb:glass_beach"
                     },
                     "conditions": []
                   }
@@ -223,8 +337,8 @@
                       "minecraft:item_name": "Music Disc",
                       "minecraft:rarity": "uncommon",
                       "minecraft:max_stack_size": 1,
-                      "minecraft:item_model": "gb:the_killer",
-                      "minecraft:jukebox_playable": "gb:the_killer"
+                      "minecraft:item_model": "gb:blood_rivers",
+                      "minecraft:jukebox_playable": "gb:blood_rivers"
                     },
                     "conditions": []
                   }
@@ -241,8 +355,8 @@
                       "minecraft:item_name": "Music Disc",
                       "minecraft:rarity": "uncommon",
                       "minecraft:max_stack_size": 1,
-                      "minecraft:item_model": "gb:the_cia",
-                      "minecraft:jukebox_playable": "gb:the_cia"
+                      "minecraft:item_model": "gb:dallas",
+                      "minecraft:jukebox_playable": "gb:dallas"
                     },
                     "conditions": []
                   }
@@ -259,8 +373,8 @@
                       "minecraft:item_name": "Music Disc",
                       "minecraft:rarity": "uncommon",
                       "minecraft:max_stack_size": 1,
-                      "minecraft:item_model": "gb:200",
-                      "minecraft:jukebox_playable": "gb:200"
+                      "minecraft:item_model": "gb:rat_castle",
+                      "minecraft:jukebox_playable": "gb:rat_castle"
                     },
                     "conditions": []
                   }
@@ -277,8 +391,8 @@
                       "minecraft:item_name": "Music Disc",
                       "minecraft:rarity": "uncommon",
                       "minecraft:max_stack_size": 1,
-                      "minecraft:item_model": "gb:commatose",
-                      "minecraft:jukebox_playable": "gb:commatose"
+                      "minecraft:item_model": "gb:planetarium",
+                      "minecraft:jukebox_playable": "gb:planetarium"
                     },
                     "conditions": []
                   }
@@ -295,8 +409,44 @@
                       "minecraft:item_name": "Music Disc",
                       "minecraft:rarity": "uncommon",
                       "minecraft:max_stack_size": 1,
-                      "minecraft:item_model": "gb:abyss_angel",
-                      "minecraft:jukebox_playable": "gb:abyss_angel"
+                      "minecraft:item_model": "gb:soft",
+                      "minecraft:jukebox_playable": "gb:soft"
+                    },
+                    "conditions": []
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "expand": true,
+                "name": "minecraft:test_block",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:item_name": "Music Disc",
+                      "minecraft:rarity": "uncommon",
+                      "minecraft:max_stack_size": 1,
+                      "minecraft:item_model": "gb:yoshis_island",
+                      "minecraft:jukebox_playable": "gb:yoshis_island"
+                    },
+                    "conditions": []
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "expand": true,
+                "name": "minecraft:test_block",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:item_name": "Music Disc",
+                      "minecraft:rarity": "uncommon",
+                      "minecraft:max_stack_size": 1,
+                      "minecraft:item_model": "gb:orchids",
+                      "minecraft:jukebox_playable": "gb:orchids"
                     },
                     "conditions": []
                   }
@@ -306,5 +456,5 @@
         "rolls": 1
       }
     ],
-    "random_sequence": "minecraft:entities/drowned"
+    "random_sequence": "minecraft:entities/zombie"
   }
