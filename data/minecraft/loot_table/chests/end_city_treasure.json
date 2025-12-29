@@ -377,7 +377,7 @@
             "type": "minecraft:item",
             "expand": true,
             "name": "minecraft:test_block",
-            "weight": 2,
+            "weight": 1,
             "functions": [
               {
                 "function": "minecraft:set_components",
