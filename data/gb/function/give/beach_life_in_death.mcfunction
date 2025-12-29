@@ -1,0 +1,1 @@
+function gb:give {song: "beach_life_in_death"}

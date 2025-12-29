@@ -1,0 +1,32 @@
+function gb:give/classic_j_dies_and_goes_to_hell_part_1
+function gb:give/bedroom_community
+function gb:give/forever
+function gb:give/bone_skull
+function gb:give/neon_glow
+function gb:give/cold_weather
+function gb:give/calico
+function gb:give/glass_beach
+function gb:give/blood_rivers
+function gb:give/dallas
+function gb:give/rat_castle
+function gb:give/planetarium
+function gb:give/soft
+function gb:give/yoshis_island
+function gb:give/orchids
+
+function gb:give/coelacanth
+function gb:give/motions
+function gb:give/slip_under_the_door
+function gb:give/guitar_song
+function gb:give/rare_animal
+function gb:give/cul_de_sac
+function gb:give/whalefall
+function gb:give/puppy
+function gb:give/the_killer
+function gb:give/the_cia
+function gb:give/200
+function gb:give/commatose
+function gb:give/abyss_angel
+
+function gb:give/beach_life_in_death
+function gb:give/welcome_to_the_black_parade

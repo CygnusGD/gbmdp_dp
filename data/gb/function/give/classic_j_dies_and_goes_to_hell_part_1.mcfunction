@@ -1,0 +1,1 @@
+function gb:give {song: "classic_j_dies_and_goes_to_hell_part_1"}

@@ -1,0 +1,1 @@
+function gb:give {song: "rare_animal"}

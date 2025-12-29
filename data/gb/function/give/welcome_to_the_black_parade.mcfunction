@@ -1,0 +1,1 @@
+function gb:give {song: "welcome_to_the_black_parade"}

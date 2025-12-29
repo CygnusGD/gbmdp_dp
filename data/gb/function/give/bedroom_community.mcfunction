@@ -1,0 +1,1 @@
+function gb:give {song: "bedroom_community"}
