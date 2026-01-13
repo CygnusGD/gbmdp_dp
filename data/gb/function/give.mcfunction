@@ -1,1 +1,1 @@
-$give @s test_block[jukebox_playable="gb:$(song)",item_model="gb:$(song)",item_name="Music Disc",rarity="uncommon",minecraft:max_stack_size=1] 1
+$give @s test_instance_block[jukebox_playable="gb:$(song)",item_model="gb:$(song)",item_name="Music Disc",rarity="uncommon",minecraft:max_stack_size=1] 1

@@ -185,7 +185,7 @@
             {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -203,7 +203,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -221,7 +221,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -239,7 +239,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -257,7 +257,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -275,7 +275,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -293,7 +293,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -311,7 +311,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -329,7 +329,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -347,7 +347,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -365,7 +365,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -383,7 +383,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -401,7 +401,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -419,7 +419,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",
@@ -437,7 +437,7 @@
               {
                 "type": "minecraft:item",
                 "expand": true,
-                "name": "minecraft:test_block",
+                "name": "minecraft:test_instance_block",
                 "functions": [
                   {
                     "function": "minecraft:set_components",

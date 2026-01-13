@@ -118,7 +118,7 @@
           {
             "type": "minecraft:item",
             "expand": true,
-            "name": "minecraft:test_block",
+            "name": "minecraft:test_instance_block",
             "weight": 2,
             "functions": [
               {
